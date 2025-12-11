@@ -19,15 +19,25 @@ Testing Split	10%
 Architecture	Custom CNN (Conv2D + MaxPooling + Dropout + Dense layers)
 
 ## 🚀 How to Run
+📥 Step 1 — Download Dataset
+Download the dataset from Kaggle:
+
+https://www.kaggle.com/datasets/pkdarabi/bone-fracture-detection-computer-vision-project
+
+🏋️ Step 2 — Train the Model
+Run your training notebook or script (e.g., train_model.ipynb or train.py).
+After training completes, it will automatically generate:
+
+🚀 Step 3 — Run the Gradio UI
+
 Option 1 — Google Colab
+Open app.py in Google Colab
+Upload the generated model files:
+cnn_bone_fracture_model.h5
+cnn_bone_fracture_model.pkl
+Run the app to launch the Gradio interface
 
-Open the project notebook (app.py) in Google Colab
-
-Upload the model file: cnn_bone_fracture_model.h5
-
-Run all cells to launch the Gradio interface
-
-Option 2 — VS Code / Local Machine
+Option 2 — Local Machine / VS Code
 1. Install Dependencies
 pip install gradio tensorflow numpy pillow
 
