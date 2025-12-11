@@ -20,7 +20,10 @@ Testing: 10%
 Architecture: Custom CNN (Conv2D + MaxPool + Dropout + Dense)
 
 # How to Run 
- open in Google collab app.py and uppload cnn_bone_fracture_model.h5 file
+ open in Google collab 
+  app.py 
+  and uppload cnn_bone_fracture_model.h5 file
+  and run app.py
  if run in vscode then install
   pip install gradio tensorflow numpy pillow
 
