@@ -1,33 +1,39 @@
-# Bone-Fracture-Detection-DeepLearning
-Bone fracture detection using a CNN-based deep learning model with Gradio UI
-Bone Fracture Detection using Deep Learning
+# 🦴 Bone Fracture Detection using Deep Learning
 
-This project detects bone fractures from X-ray images using a custom CNN model trained on YOLO-V8 annotated dataset.
+A deep learning–based system for detecting bone fractures from X-ray images using a custom CNN model (built from scratch) and an interactive Gradio web UI.
 
 ✨ Features
-Custom CNN architecture (not pretrained)
-Training, validation, and testing splits
-Gradio web UI
-.h5 and .pkl model export
-Fully reproducible code
 
-📊 Model Info
+🔧 Custom CNN architecture (not pretrained)
+📦 YOLO-V8 annotated dataset used for training
+🔍 Training / Validation / Testing dataset splits
+🌐 Gradio UI for easy user interaction
+💾 Exports both .h5 and .pkl model formats
+🔁 Fully reproducible code and workflow
 
-Training: 70%
-Validation: 20%
-Testing: 10%
+📊 Model Details
+Component	Description
+Training Split	70%
+Validation Split	20%
+Testing Split	10%
+Architecture	Custom CNN (Conv2D + MaxPooling + Dropout + Dense layers)
 
-Architecture: Custom CNN (Conv2D + MaxPool + Dropout + Dense)
+## 🚀 How to Run
+Option 1 — Google Colab
 
-# How to Run 
- open in Google collab 
-  app.py 
-  and uppload cnn_bone_fracture_model.h5 file
-  and run app.py
- if run in vscode then install
-  pip install gradio tensorflow numpy pillow
+Open the project notebook (app.py) in Google Colab
 
-No pre-trained models used
+Upload the model file: cnn_bone_fracture_model.h5
+
+Run all cells to launch the Gradio interface
+
+Option 2 — VS Code / Local Machine
+1. Install Dependencies
+pip install gradio tensorflow numpy pillow
+
+2. Run the Application
+python app.py
+
 
 <img width="1915" height="839" alt="image" src="https://github.com/user-attachments/assets/fb206239-a51c-4898-a579-2ab0ea203442" />
 
